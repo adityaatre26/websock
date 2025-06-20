@@ -96,5 +96,5 @@ app.post("/emit-completeTask", (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log("Socket server is running on port 4000");
+  console.log("Socket server is running on port", PORT);
 });
